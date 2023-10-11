@@ -1,5 +1,13 @@
+import Chai from "./chai.jsx";
+
 function App() {
-  return <h1>Hello world with vite </h1>;
+  return (
+    <>
+      <Chai />
+      <h1>Second Tag as jsx</h1>
+      <p>test another element</p>
+    </>
+  );
 }
 
 export default App;
