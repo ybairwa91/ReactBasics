@@ -1,0 +1,53 @@
+//DOM=DOCUMENT OBJECT MODEL==>it basically connects web pages to script(html,jsx,svg and much more),
+dom basically hava document with logical tree,each branch of tree ends with a node and each node contains some objects.now dom allows to access the tree to the programming language.
+
+
+//Browser Dom ==>when u change something it reload means whole DOM reload whenever new change occurs
+
+//Now comes to the virtual dom created by React for its own convenience
+whenever u change it only change the value and not the whole dom
+
+//using DOM we update whenever user update them but what if dont update immediately and do the last updation only and leave the intermediate one
+
+//now we have fiber in react which updates the new update or to say its behind the scene virtual dom which update behind the scene but new name is fiber
+
+//its has more usuability in sphere of animation,layout,gestures since it update so fast and have a feature to skip the intermediate update and directly get back to final update as per user requests
+
+..Incremental rendering is the headline feature of react fiber
+
+
+
+##key feature 
+        ability to pause, abort, or reuse work as new updates come in;
+         the ability to assign priority to different types of updates; 
+         and new concurrency primitives.
+
+
+//what is hydration===injecting js into the web programm or page is hydration means simply having a button and then using js to click on the button to render something is hydration Browser
+
+
+//fibre is hard to understand but yeah we can understand
+
+
+
+//reconciliation
+   ////The algorithm React uses to diff one tree with another to determine which parts need to be changed. 
+   Reconciliation is the algorithm behind what is popularly understood as the "virtual DOM." 
+
+
+//setState tells the update
+//we dont care about behind the scene
+
+
+//to improve lists we use key
+
+
+
+
+
+
+
+
+
+
+
